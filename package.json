@@ -1,0 +1,26 @@
+{
+  "name": "ml_trial",
+  "version": "1.0.0",
+  "description": "trial ml web app",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "server": "nodemon app",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "AngoJay",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "python-shell": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
