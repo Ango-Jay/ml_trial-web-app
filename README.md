@@ -6,5 +6,5 @@ NodeJS
 PythonShell
 Python
 
-## NOTE 
+*NOTE*
 Only works on titanic dataset
