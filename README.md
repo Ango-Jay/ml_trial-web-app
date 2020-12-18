@@ -5,3 +5,6 @@ ReactJS
 NodeJS
 PythonShell
 Python
+
+## NOTE 
+Only works on titanic dataset
